@@ -36,12 +36,12 @@ namespace coba
             String userInput;
             int num1, num2, ret, ret2;
             Program p = new Program();
-            Console.WriteLine("Simple Program for find Max number\n\n");//xaaxaxaxa
+            Console.WriteLine("Simple Program for find Max number\n\n");
             Console.Write("Number 1 : ");
             userInput = Console.ReadLine();
             num1 = Convert.ToInt32(userInput);
-            Console.Write("Number 2 : ");////dasdsaa
-            userInput = Console.ReadLine();//asdada
+            Console.Write("Number 2 : ");
+            userInput = Console.ReadLine();
             num2 = Convert.ToInt32(userInput);
             ret = p.findMax(num1,num2);
             ret2 = p.findMin(num1,num2);
