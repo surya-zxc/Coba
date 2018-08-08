@@ -24,7 +24,7 @@ namespace coba
             String userInput;
             int num1, num2, ret;
             Program p = new Program();
-            Console.WriteLine("Simple Program for find Max number\n\n");
+            Console.WriteLine("Simple Program for find Max number \n\n");//yyy
             Console.Write("Number 1 : ");
             userInput = Console.ReadLine();
             num1 = Convert.ToInt32(userInput);
