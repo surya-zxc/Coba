@@ -32,8 +32,9 @@ namespace coba
             userInput = Console.ReadLine();
             num2 = Convert.ToInt32(userInput);
             ret = p.findMax(num1,num2);
-            Console.WriteLine("Max value is : '{0}'",ret);
+            Console.WriteLine("Max value is : '{0}' x",ret);
             Console.ReadKey();
+
         }
     }
 }
