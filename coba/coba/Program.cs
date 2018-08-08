@@ -28,7 +28,7 @@ namespace coba
             Console.Write("Number 1 : ");
             userInput = Console.ReadLine();
             num1 = Convert.ToInt32(userInput);
-            Console.Write("Number 2 : ");
+            Console.Write("Number 2 : ");////dasdsaa
             userInput = Console.ReadLine();
             num2 = Convert.ToInt32(userInput);
             ret = p.findMax(num1,num2);
