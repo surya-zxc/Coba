@@ -15,10 +15,22 @@ namespace coba
                 result = num1;
             else
                 result = num2;
+            
+            return result;
+        }
 
+        public int findMin(int num1, int num2)
+        {
+            int result;
+
+            if (num1 < num2)
+                result = num1;
+            else
+                result = num2;
 
             return result;
         }
+
         static void Main(string[] args)
         {
             String userInput;
