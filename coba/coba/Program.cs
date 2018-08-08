@@ -47,7 +47,7 @@ namespace coba
             ret2 = p.findMin(num1,num2);
             Console.WriteLine("Max value is : '{0}'",ret);
             ///Console.ReadKey();
-            Console.WriteLine("Min value is : '{0}'", ret2);
+            Console.WriteLine("Min value is : '{0}'", ret2);//ea
             Console.ReadKey();
 
         }
