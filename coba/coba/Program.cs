@@ -49,6 +49,8 @@ namespace coba
             ///Console.ReadKey();
             Console.WriteLine("Min value is : '{0}'", ret2);
             Console.ReadKey();
+			Console.ReadKey();
+			Console.ReadKey();
 
         }
     }
