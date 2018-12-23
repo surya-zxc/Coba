@@ -37,7 +37,7 @@ namespace coba
             int num1, num2, ret, ret2;
             Program p = new Program();
             Console.WriteLine("Simple Program for find Max number\n\n");
-            Console.Write("Number 1 : ");
+            Console.Write("Number 1 = ");
             userInput = Console.ReadLine();
             num1 = Convert.ToInt32(userInput);
             Console.Write("Number 2 : ");
